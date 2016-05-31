@@ -1,0 +1,27 @@
+{
+  "name": "sdw-immo-backend",
+  "version": "1.0.0",
+  "description": "Express Back-end (API)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mopiou/sdw-immo-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mopiou/sdw-immo-backend/issues"
+  },
+  "homepage": "https://github.com/mopiou/sdw-immo-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.21"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
